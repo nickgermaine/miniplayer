@@ -87,6 +87,23 @@ controller.animateToHeight(state: PanelState.MAX);
       </td>
        <td></td>
     </tr>
+    <tr></tr>
+        <tr>
+          <td>Dynamic Border Radius and Margins</td>
+          <td>
+            <pre lang="dart">
+        </br>
+    Miniplayer(
+       miniMargin: 10,
+       miniRadius: 5,
+    ),
+      </br>
+            </pre>
+          </td>
+           <td>
+           Adds margin and border radius when player is minimized, and animates with resizing
+           </td>
+        </tr>
 </table>
 
 ## Persistence
